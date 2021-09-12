@@ -14,7 +14,6 @@ public class Lexico {
   private int pos;
 
   public int linha = 1;
-  private char peek = '\0';
   private HashMap<String, Token> reservadas = new HashMap<String, Token>() {
     {
       put("program", new Token(Token.Tag.PALAVRA_RESERVADA, "program"));
