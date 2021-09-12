@@ -1,0 +1,16 @@
+br\ufmt\compilador\marco\exceptions\SemanticoException.class
+br\ufmt\compilador\marco\Token.class
+br\ufmt\compilador\Lexico.class
+br\ufmt\compilador\Token.class
+br\ufmt\compilador\marco\Sintatico.class
+br\ufmt\compilador\Sintatico2.class
+br\ufmt\compilador\marco\App.class
+br\ufmt\compilador\marco\exceptions\SintaticoException.class
+br\ufmt\compilador\marco\Lexico$1.class
+br\ufmt\compilador\marco\exceptions\LexicoException.class
+br\ufmt\compilador\marco\Token$Tag.class
+br\ufmt\compilador\Simbolo.class
+br\ufmt\compilador\marco\Helper.class
+br\ufmt\compilador\Sintatico.class
+br\ufmt\compilador\marco\Lexico.class
+br\ufmt\compilador\App.class
