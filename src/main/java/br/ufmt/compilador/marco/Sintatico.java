@@ -180,7 +180,7 @@ public class Sintatico {
 			obterSimbolo();
 			comandos();
 			int index = codigo.lastIndexOf("{");
-			codigo.replace(index, index + 1, String.valueOf(linhaCodigo));
+			codigo.replace(index, index + 1, String.valueOf(linhaCodigo + 1));
 			pfalsa();
 			verificarValorThrow("$");
 			obterSimbolo();
