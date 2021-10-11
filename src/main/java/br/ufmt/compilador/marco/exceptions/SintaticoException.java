@@ -1,5 +1,7 @@
 package br.ufmt.compilador.marco.exceptions;
 
+import java.util.Arrays;
+
 import br.ufmt.compilador.marco.Helper;
 import br.ufmt.compilador.marco.Token;
 import br.ufmt.compilador.marco.Token.Tag;
@@ -30,8 +32,8 @@ public class SintaticoException extends RuntimeException {
   }
 
   public SintaticoException(Token token, Integer linha, String... nomeEsperado) {
-    super("Erro sintático (linha " + linha + "): Esperado algum dos nomes \"" + nomeEsperado + "\", mas foi recebido \""
-        + token.getValor() + "\"");
+    super("Erro sintático (linha " + linha + "): Esperado algum dos nomes \"" + Arrays.asList(nomeEsperado)
+        + "\", mas foi recebido \"" + token.getValor() + "\"");
   }
 
 }

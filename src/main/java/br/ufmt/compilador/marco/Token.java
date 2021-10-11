@@ -3,7 +3,7 @@ package br.ufmt.compilador.marco;
 public class Token {
 
   public enum Tag {
-    INTEGER, REAL, IDENTIFICADOR, SIMBOLO, PALAVRA_RESERVADA,
+    INTEGER, REAL, IDENTIFICADOR, SIMBOLO, PALAVRA_RESERVADA, COMENTARIO,
   }
 
   private String valor;
